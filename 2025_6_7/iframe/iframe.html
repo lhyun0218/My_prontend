@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이프레임</title>
+    <style>
+        body {
+            margin: 0 40px 0 40px;
+        }
+    </style>
+</head>
+<body>
+    <h3>iframe(아이프레임)</h3>
+    <hr>
+    <iframe src="URL"
+            srcdoc="HTML 문서 텍스트"
+            name="윈도우 이름"
+            width="프레임의 폭"
+            height="프레임의 높이">
+    iframe 태그를 다루지 않는 브라우저에 의해 대신 출력되는 텍스트
+    </iframe>
+    <hr>
+    src : 출력할 웹 페이지의 URL <br>
+    srcdoc : 직접 html 태그로 작성된 텍스트로서 출력될 내용<br>
+    name : 프레임 윈도우의 이름. 다른 웹페이지에서 target 속성 값으로 사용 <br>
+    width : 프레임의 폭. 픽셀 값. 디폴트 300 <br>
+    height : 프레임의 높이. 픽셀 값. 디폴트 150 <br>
+    <hr>
+    <h3>srcdoc으로 작성된 iframe</h3>
+    <iframe src="iframe_news.html" width="200" height="100" srcdoc="<html><head></head><body>hello</body></html>"></iframe>
+</body>
+</html>
