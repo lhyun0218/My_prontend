@@ -1,0 +1,11 @@
+        body {
+            margin: 0 30px 0 30px;
+            background-color: linen;
+            text-align: center;
+        }
+        h3 {
+            color: darkred;
+        }
+        p {
+            color: blueviolet;
+        }
