@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>block</title>
+    <style>
+        span { /* span을 block 박스로 지정하고 폭과 높이를 각각
+                  100px, 60px로 지정한 사례. 한 줄을 독립적으로 차지하여
+                  옆에 다른 곳으로 배치되지 않음.*/
+            display: block;
+            width: 100px;
+            height: 60px;
+            border: 1px solid red;
+            background-color: skyblue;
+        }
+        div {
+            border: 1px solid  green;
+        }
+    </style>
+</head>
+<body>
+    <h3>&lt;span&gt;를 display:block으로</h3>
+    <hr>
+    <div>
+        <span>block span</span>과
+        <span>block span</span>입니다.
+    </div>
+</body>
+</html>
