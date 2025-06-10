@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline</title>
+    <style>
+        div { /*<div>가 inline 박스로 지정됨. 
+                inline 박스는 라인 안에 다른 요소들과 함께 배치.
+                공간이 좁으면 남는 부분이 다음 라인으로 넘어감*/
+            display: inline;
+            background-color: skyblue;
+            border: 1px dotted red;
+        }
+    </style>
+</head>
+<body>
+    <h3>&lt;div&gt;를 display:inline으로</h3>
+    <hr>
+    <div style="background-color: orange;">
+        <div>inline DIV</div>
+        <div>inline DIV</div>
+        <div>inline DIV</div>
+    </div>
+</body>
+</html>
