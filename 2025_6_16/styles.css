@@ -1,0 +1,46 @@
+/* 컴퓨터 기술 소개 페이지에 대한 CSS */
+html, body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+header {
+    background-color:yellow;
+    height: 20%;
+    
+}
+nav {
+    background-color: orange;
+    height: 72%;
+    width: 25%;
+    float: left;
+}
+section {
+    height: 72%;
+    width: 75%;
+    background-color: skyblue;
+    display: inline-block;
+
+}
+h1 { /* h1태그 색, 중앙 정렬 */
+    text-align: center;
+    margin: 0;
+}
+p { /* p태그 폰트, 들여쓰기, 글자크기 */
+    text-indent: 1em;
+    font-size: 1em;
+}
+h2 > a { /* h2 > a태그 데코X, 파란색, 쉐도우 */
+    text-shadow: 2px 2px 5px skyblue;
+}
+td img { /*이미지 가로 130px 새로는 고정*/
+    width: 130px;
+}
+
+footer { /*푸터 부분에 주황 바탕, 둥근 모서리, 왼쪽 여백 추가 */
+    background-color: violet;
+    height: 8%;
+}
+footer p { /* 푸터에 p태그 들여쓰기 값 : 0 */
+    text-indent: 0;
+}
