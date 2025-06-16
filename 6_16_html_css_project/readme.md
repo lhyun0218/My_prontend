@@ -33,15 +33,17 @@
 
 ## 📂 프로젝트 파일 구성
 
-## ├── index.html       # 한국어 버전 메인 페이지
-## ├── eng.html         # 영어 버전 메인 페이지
-## ├── styles.css       # 모든 페이지에 적용되는 CSS 스타일시트
-## ├── media/           # 이미지 및 미디어 파일 폴더
-## │   ├── sign.PNG     # 로고 이미지 (한국어 버전)
-## │   ├── signE.png    # 로고 이미지 (영어 버전 - 사용되지 않음)
-## │   ├── dit.png      # DIT 로고 (사용되지 않음)
-## │   └── tiobe.PNG    # TIOBE 인덱스 이미지
-## └── README.md        # 현재 파일
+```text
+.
+├── index.html       # 한국어 버전 메인 페이지
+├── eng.html         # 영어 버전 메인 페이지
+├── styles.css       # 모든 페이지에 적용되는 CSS 스타일시트
+├── media/           # 이미지 및 미디어 파일 폴더
+│   ├── sign.PNG     # 로고 이미지 (한국어 버전)
+│   ├── signE.png    # 로고 이미지 (영어 버전 - 사용되지 않음)
+│   ├── dit.png      # DIT 로고 (사용되지 않음)
+│   └── tiobe.PNG    # TIOBE 인덱스 이미지
+└── README.md        # 현재 파일
 
 
 ## 👨‍💻 개발자
