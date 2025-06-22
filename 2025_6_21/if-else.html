@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if-else를 이용한 학점 매기기</title>
+    <style>
+        div {
+            border: 1px solid rgb(205, 205, 205);
+            background-color: rgb(242, 242, 242);
+            border-radius: 5px;
+            text-align: center;
+            width: 50%;
+            margin: 20px auto 20px auto;
+            height: 10em;
+            box-shadow: 0px 0px 10px 1px gray;
+
+        }
+    </style>
+</head>
+<body>
+    <h3>if-else를 이용한 학점 매기기</h3>
+    <hr>
+    <div>
+    <script>
+    /* 이 프로그램은 사용자의 이름과 재학중인 학교 명과 점수를 입력받아
+       사용자의 점수를 계산하여 학점을 계산하는 프로그램 입니다 */
+       
+       let grade;
+       
+       let name   = prompt ("사용자님 안녕하십니까 성함을 알려주세요!"),
+           school = prompt("재학중인 학교명을 입력해주세요!"),
+           score  = prompt( name + "님 점수를 입력하세요!", 100);
+
+       score = parseInt(score); // 문자열을 숫자로 바꿈
+       if(score >= 90) { // score가 90이상
+        grade = "A";
+       }
+       else if(score >= 80){ // score가 80이상
+        grade = "B";
+       }
+       else if (score >= 70){ // score가 70이상 80미만
+        grade = "C";
+       }
+       else if (score >= 60){ // score가 60이상 70미만
+        grade = "D";
+       }
+       else{ // 60미만 너는 F
+        grade = "F";
+       }
+       document.write(school + "에 재학중이신<br> " + name + "님의 점수 : " + score + "점은 <br>성적 " + grade + "입니다.<br>");
+    </script>
+    </div>
+</body>
+</html>
